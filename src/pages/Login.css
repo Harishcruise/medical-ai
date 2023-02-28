@@ -1,0 +1,105 @@
+.company-logo{
+    margin-top: 58px;
+  }
+  .main-section{
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-login-box{
+    width: 743px;
+    max-height: 693px;
+    min-width: 300px;
+    min-height: 300px;
+    margin-top: 58px;
+    background: #BEEFFF;
+    box-shadow: 0px 4px 8px rgba(30, 30, 30, 0.14);
+    border-radius: 20px;
+    padding: 0 38px 76px 38px;
+  }
+  h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1C77F4;
+    margin: 101px 0 0 0 ;
+  }
+  .login-form{
+    margin-top: 59px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+  }
+  .form-row{
+    width: fit-content;
+    /* margin: 0 auto; */
+  }
+  .form-row label{
+    display: block;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #212529;
+  }
+  .form-row input{
+    padding: 16px 13px;
+    gap: 10px;
+    width: 538px;
+    height: 54px;
+    background: #FEFEFE;
+    border-radius: 25px;
+    border: none;
+    margin-top: 12px;
+  }
+  
+  .login-btn{
+    background: #1467D9;
+    box-shadow: 0px 4px 11px rgba(20, 103, 217, 0.25);
+    border-radius: 43px;
+    width: fit-content;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    color: #F9F9F9;
+    border: none;
+    padding: 9px 117px;
+  }
+  .or-span{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    color: #9B9B9B;
+    display: block;
+    width: fit-content;
+    margin: 21px auto;
+  }
+  .google-btn{
+    display: flex;
+    align-items: center;
+    padding: 11px 46px;
+    border: 1px solid #1467D9;
+    border-radius: 43px;
+    background-color: transparent;
+    margin: 0 auto;
+  }
+  .google-btn span{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #212529;
+    margin-left: 16px;
+  }

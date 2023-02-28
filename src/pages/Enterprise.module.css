@@ -1,0 +1,44 @@
+.integrationBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 230px;
+    height: 35px;
+    background-color: #1C77F4;
+    color: #F9F9F9;
+    border-radius: 50px;
+    margin-top: 10px;
+    /* padding-right: 10px; */
+}
+
+.section1{
+    display: flex;
+    padding: 40px 80px;
+    justify-content: space-between;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 1350px;
+    height: 300px;
+    border: 1px solid #9B9B9B;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    /* gap: 70px; */
+}
